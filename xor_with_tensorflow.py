@@ -7,7 +7,7 @@ data = tf.placeholder(tf.float32, shape=(4, 2))
 label = tf.placeholder(tf.float32, shape=(4, 1))
 
 with tf.variable_scope('layer1') as scope:
-  weight = tf.get_variable(name='weight', shape=(4, 2))
+  weight = tf.get_variable(name='weight', shape=(2, 2))
   bias = tf.get_variable(name='bias', shape=(2,))
   x = tf.nn.sigmoid(tf.matmul(data, weight) + bias)
 with tf.variable_scope('layer2') as scope:
