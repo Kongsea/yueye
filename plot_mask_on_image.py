@@ -34,7 +34,7 @@ def draw_mask_edge_on_image_skimage(image, mask, color=(0, 0, 255)):
   image = cv2.cvtColor(image, cv2.COLOR_GRAY2BGR)
   for c in contours:
     c = np.around(c).astype(np.int)
-    image[c[:, 0], c[:, 1], :] = np.array(color)
+    image[c[:, 0], c[:, 1]] = np.array(color)
   write(image)
 
 
