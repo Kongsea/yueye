@@ -29,4 +29,4 @@ Code of my blog: yueye
 
 6. [Convert custom own dataset to pascal_voc format.](./convert_to_pascal_voc.py)
 
-   [Blog link.]()
+   [Blog link.](http://www.yueye.org/2018/convert-your-own-custom-dataset-to-pascal-voc.html)
