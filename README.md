@@ -30,3 +30,9 @@ Code of my blog: yueye
 6. [Convert custom own dataset to pascal_voc format.](./convert_to_pascal_voc.py)
 
    [Blog link.](http://www.yueye.org/2018/convert-your-own-custom-dataset-to-pascal-voc.html)
+
+7. [Plot Chinese characters on images. (using Matplotlib)](./plot_chinese_matplotlib.py)
+
+   [Plot Chinese characters on images. (using PIL.Image)](./plot_chinese_PIL_ImageDraw.py)
+
+   [Blog link.](http://www.yueye.org/2018/plot-chinese-characters-on-images.html)
