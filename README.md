@@ -36,3 +36,7 @@ Code of my blog: yueye
    [Plot Chinese characters on images. (using PIL.Image)](./plot_chinese_PIL_ImageDraw.py)
 
    [Blog link.](http://www.yueye.org/2018/plot-chinese-characters-on-images.html)
+
+8. [Convert dataset to COCO json format to train models using Detectron](./convert_to_detectron_json.py)
+
+   [Blog link.](http://www.yueye.org/2018/train-object-detection-model-using-detectron.html)
