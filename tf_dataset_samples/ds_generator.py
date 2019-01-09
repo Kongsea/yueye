@@ -31,11 +31,11 @@ def create_dataset():
   data = data.batch(2)
   data = data.make_one_shot_iterator()
   tt = time.time()
+  _, labels = data.get_next()
   with tf.Session() as sess:
     for i in range(100):
-      _, labels = data.get_next()
-      labels = sess.run(labels)
-      print('{} -> {}'.format(i, labels))
+      getlabels = sess.run(labels)
+      print('{} -> {}'.format(i, getlabels))
     print(time.time() - tt)
 
 
